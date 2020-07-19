@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Lora';
-    background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../img/polygon.jpg");
+    background-image: linear-gradient(rgba(17, 15, 47, 0.65), rgba(8, 7, 22, 0.65)), url("../img/polygon.jpg");
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -43,6 +43,10 @@ p {
     font-weight: 800;
 }
 
+.site-heading span.site-heading-upper {
+    color: rgb(124, 155, 206);
+}
+
 .site-heading .site-heading-lower {
     font-size: 5rem;
     font-weight: 100;
@@ -75,12 +79,12 @@ p {
 }
 
 #mainNav {
-    background-color: rgba(47, 23, 15, 0.9);
+    background-color: rgba(132, 135, 165, 0.9);
     font-family: 'Raleway';
 }
 
 #mainNav .navbar-brand {
-    color: #e6a756;
+    color: rgb(53, 51, 133);
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -89,7 +93,9 @@ p {
 }
 
 #mainNav .navbar-nav .nav-item.active .nav-link {
-    color: #e6a756;
+    color: rgb(66, 88, 182);
+    background-color: rgb(165, 166, 229);
+    border-radius: 5px;
 }
 
 @media (min-width: 992px) {
@@ -100,7 +106,7 @@ p {
         color: rgba(255, 255, 255, 0.4);
     }
     #mainNav .navbar-nav .nav-item.active .nav-link:hover {
-        color: #e6a756;
+        color: rgb(88, 86, 230);
     }
 }
 
@@ -145,7 +151,7 @@ p {
 .cta {
     padding-top: 5rem;
     padding-bottom: 5rem;
-    background-color: rgba(230, 167, 86, 0.9);
+    background-color: rgba(60, 83, 161, 0.623);
 }
 
 .cta .cta-inner {
@@ -211,7 +217,7 @@ p {
 
 .list-hours .list-hours-item.today {
     font-weight: bold;
-    color: #e6a756;
+    color: rgb(86, 88, 230);
 }
 
 @media (min-width: 992px) {
@@ -226,15 +232,16 @@ p {
 }
 
 .footer {
-    background-color: rgba(47, 23, 15, 0.9);
+    background-color: rgba(129, 130, 159, 0.9);
+    color: black;
 }
 
 .text-primary {
-    color: #e6a756 !important;
+    color: rgb(86, 88, 230) !important;
 }
 
 .bg-primary {
-    background-color: #e6a756 !important;
+    background-color: rgb(86, 88, 230) !important;
 }
 
 .btn {
@@ -242,15 +249,15 @@ p {
 }
 
 .btn-primary {
-    background-color: #e6a756;
-    border-color: #e6a756;
+    background-color: rgb(88, 86, 230);
+    border-color: rgb(86, 88, 230);
 }
 
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
-    background-color: #df902a;
-    border-color: #df902a;
+    background-color: rgb(42, 60, 223);
+    border-color: rgb(42, 54, 223);
 }
 
 .font-weight-light {
